@@ -7,6 +7,9 @@ const config = {
 };
 
 module.exports = {
+  babel: {
+    plugins: ['styled-jsx/babel'],
+  },
   webpack: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
